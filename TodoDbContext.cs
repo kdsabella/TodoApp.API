@@ -9,5 +9,6 @@ namespace Todo_API.Data
         public  TodoDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Todo> Todos { get; set; }
+
     }
 }
